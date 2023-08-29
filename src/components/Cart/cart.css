@@ -5,11 +5,8 @@
     border-radius: 15px;
     margin: 0.7rem;
     padding: 3rem;
-}
-.cartDelete{
-    float: right;
-    text-align: right;
-    padding: 0.5rem;
+    font-size: 1rem;
+    font-family: Roboto, sans-serif;
 }
 .cartPrice{
     font-weight: bold;
@@ -22,4 +19,9 @@
 .cartItemRight{
     float: right;
     text-align: right;
+}
+.cartDelete{
+    float: right;
+    text-align: right;
+    margin-left: 2rem;
 }

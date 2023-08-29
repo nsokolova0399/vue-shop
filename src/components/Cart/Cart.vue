@@ -4,12 +4,16 @@
             <div :style="!text ? 'text-decoration: line-through;' : 'text-decoration: none;'" class="cartItemLeft">
                 {{name}}
             </div>
+            <div class="cartDelete">
+                <img width="18" height="18" src="@/assets/delete.png" @click="showTextDecoration"
+                     alt="Удалить">
+            </div>
             <div :style="!text ? 'text-decoration: line-through;' : 'text-decoration: none;'"
                  class="cartItemRight cartPrice">{{price}} ₽
             </div>
+
         </div>
-        <img class="cartDelete" width="18" height="18" src="@/assets/delete.png" @click="showTextDecoration"
-             alt="Удалить">
+
     </div>
 </template>
 
