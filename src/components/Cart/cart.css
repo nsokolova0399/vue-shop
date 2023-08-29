@@ -1,0 +1,25 @@
+.cart{
+    width: 80%;
+    height: auto;
+    box-shadow: 5px 5px 5px 5px rgba(0, 0, 0, 0.05);
+    border-radius: 15px;
+    margin: 0.7rem;
+    padding: 3rem;
+}
+.cartDelete{
+    float: right;
+    text-align: right;
+    padding: 0.5rem;
+}
+.cartPrice{
+    font-weight: bold;
+}
+.cartItemLeft{
+    display: inline-block;
+    text-align: left;
+    width: 80%;
+}
+.cartItemRight{
+    float: right;
+    text-align: right;
+}
