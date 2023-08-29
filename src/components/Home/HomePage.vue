@@ -51,6 +51,8 @@
                 this.products.push({name: this.name, price: this.price, textDecoration: this.textDecoration})
                 localStorage.setItem('products', JSON.stringify(this.products));
                 this.showModal = !this.showModal;
+                this.price = "";
+                this.name = "";
             },
             closeModal: function () {
                 this.showModal = !this.showModal;
